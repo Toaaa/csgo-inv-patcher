@@ -49,6 +49,10 @@ If you want to play CS2 again (for whatever reason), you can simply start the pa
 
 Currently, there is a [precompiled version](https://github.com/Toaaa/csgo-inv-patcher/releases/latest) for **Windows only**.
 
+---
+
+
+## Building from source
 ### Requirements
 
 - A working installation of the Rust toolchain (typically installed via [rustup](https://rustup.rs/)).
