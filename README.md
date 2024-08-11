@@ -6,11 +6,6 @@ Just install the CS:GO Legacy version, [run the patcher](#usage), select `CS:GO`
 
 > If you encounter any issues or bugs, please report them by creating an [issue](https://github.com/Toaaa/csgo-inv-patcher/issues/new). Include as much detail as possible.
 
-## Features
-
-- **Patch to CS:GO**: Updates the `ClientVersion` to enable playing the legacy Counter-Strike: Global Offensive and use your Inventory and Skins.
-- **Patch back to CS2**: Updates the `ClientVersion` to enable playing Counter-Strike 2.
-
 ## Usage
 
 > ⚠️ Make sure that the game is closed before running the patcher.
