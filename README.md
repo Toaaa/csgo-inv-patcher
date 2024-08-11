@@ -13,6 +13,8 @@ Just install the CS:GO Legacy version, [run the patcher](#usage), select `CS:GO`
 
 ## Usage
 
+> ⚠️ Make sure that the game is closed before running the patcher.
+
 1. Run a [compiled binary](#installation).
 
 2. Follow the Prompt: When the patcher runs, it will ask you which version you want to patch. In our case, we want to patch the CS:GO version, so we select CS:GO.
