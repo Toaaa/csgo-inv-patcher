@@ -20,7 +20,16 @@ Just install the CS:GO Legacy version, [run the patcher](#usage), select `CS:GO`
   Patch back to CS2
 ```
 
-The patcher will now scan all available drives on your PC and find the CS(GO) installation and apply the patch.
+After choosing the version, the patcher will ask how you'd like to locate your CS(GO) installation:
+
+```
+✔ Which version would you like to patch to? · Patch to CS:GO
+? Search for CS:GO automatically or enter path manually? ›
+❯ Auto-scan drives
+❯  Enter a custom path
+```
+
+If you choose Auto-scan drives, the patcher will scan all available drives on your PC to find the CS(GO) installation and apply the patch.
 
 ```
 ✔ Which version would you like to patch to? · Patch to CS:GO
@@ -30,9 +39,17 @@ Scanning: D:\..
 Scanning: E:\..
 ```
 
+If you choose Enter a custom path, you'll be prompted to manually enter the CS:GO install folder (the folder that contains the `csgo` subfolder, by default this should be `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive`):
+
+```
+✔ Which version would you like to patch to? · Patch to CS:GO
+✔ Search for CS:GO automatically or enter path manually? · Enter a custom path
+? Enter the path to your CS:GO folder ›
+```
+
 If the patch has been successfully applied, you will see a confirmation message. If everything went well, you can now start CS:GO Legacy and use your inventory and skins.
 
-```csgo message
+```
 File successfully patched to version: CS:GO.
 You should now be able to use your skins in CS:GO Legacy. You shouldn't play CS2 while this is active.
 ```
@@ -45,6 +62,7 @@ If you want to play CS2 again (for whatever reason), you can simply start the pa
 ## Installation
 
 Currently, there is a [precompiled version](https://github.com/Toaaa/csgo-inv-patcher/releases/latest) for **Windows only**.
+
 
 ---
 
