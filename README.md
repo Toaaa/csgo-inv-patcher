@@ -6,6 +6,11 @@ Just install the CS:GO Legacy version, [run the patcher](#usage), select `CS:GO`
 
 > If you encounter any issues or bugs, please report them by creating an [issue](https://github.com/Toaaa/csgo-inv-patcher/issues/new). Include as much detail as possible.
 
+## Does this work for the ["new" CS:GO](https://store.steampowered.com/app/4465480/CounterStrike_Global_Offensive/)?
+No. You *have* to use `csgo_legacy` branch of CS2.
+The CS backend connection piggy banks off of Steam's connection. In the underlying message Steam sends to its servers the AppID is included, since Steam sees you playing `4465480` (["New" CS:GO](https://store.steampowered.com/app/4465480/CounterStrike_Global_Offensive/)) it adds that AppID to the message. However, there is no CS backend for that AppID and thus the message goes into the void.
+In the `csgo_legacy` branch you are still using the 730 AppID, the same as the existing CS backend. The CS backend identifies if you are playing CS2 or CS:GO with the version in the `steam.inf` file and if its too old you are playing CS:GO.
+
 ## Usage
 
 > ⚠️ Make sure that the game is closed before running the patcher.
